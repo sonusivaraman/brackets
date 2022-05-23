@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+body {
+    overflow-x: hidden;
+    font-family: 'Syne', sans-serif;
+}
+.container-fluid{
+   background-color:  #f0f9ff;
+ 
+}
+.h2{
+   font-size: 3rem;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+}
+.navbar-nav :hover{   
+      text-decoration: underline;
+}
+.hero img {
+    max-width: auto;
+}
+.intro {
+    padding-top: 23px;
+    text-align: center;
+  
+    margin: auto;
+    font: 400 20px / 30px "Inter", sans-serif;
+}
+
+#intro-detail{
+    font-weight: 500;
+    color: rgb(44, 44, 44);
+}
+
+#intro-sec{
+
+    margin-top: 120px;
+}.section-fing{
+    padding-top: 80px;
+}
+
+.card :hover{
+    transition: 1s;
+   box-shadow: 10px 10px 10px black;
+ }
+ .card-body :hover{
+    box-shadow: none;
+   
+}
+.card-num p{
+    margin-top: -5px; 
+}
+ .card-num{
+     background-color: #ffeae9;
+ color: #361415;
+    border-radius: 50%;
+    font-weight: 700;
+    padding: 20px;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+.right .btn{
+    border: solid 2px  black;
+    border-radius: 1rem;
+}
+.button .btn:hover{
+    transition: 4rem;
+  background-color: black;
+  color: white;
+}
+@media(max-width:750px){
+
+}
